@@ -15,9 +15,7 @@ steps:
   inputs:
     SonarQube: 'SonarAzure3'
     scannerMode: 'CLI'
-    configMode: 'manual'
-    cliProjectKey: 'JS'
-    cliSources: '.'
+    configMode: 'file'
 
 - task: SonarQubeAnalyze@4
 
